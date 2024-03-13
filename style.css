@@ -3,3 +3,76 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 30%;
+}
+
+.col{
+    width: 25%;
+}
+
+.col.center{
+    text-align: center;
+}
+
+.col.right{
+    text-align: right;
+    color: white;
+}
+
+.riga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 5rem;
+    gap: 8px;
+}
+
+.foto{
+    width: 23%;
+    height: 30rem;
+}
+
+.modello{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+         /* FOOTER */
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.colonna>h3 , i , p{
+    color: white;
+}
+
+.colonna{
+    width: 37.5%;
+    height: 5rem;
+    padding: 20px 0;
+}
+
+.colonna.due{
+    text-align: right;
+}
