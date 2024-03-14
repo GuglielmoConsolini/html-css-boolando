@@ -11,8 +11,16 @@ header{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
+    z-index: 999;
+    
+}
+
+main{
+    padding-top: 5rem;
 }
 
 a{
@@ -26,6 +34,7 @@ a{
 
 .col{
     width: 25%;
+    
 }
 
 .col.center{
@@ -73,6 +82,7 @@ a{
     right: 0;
     padding: 5px 10px;
     background-color: white;
+    z-index: 998;
 }
 
 .foto:hover  .cuore {
